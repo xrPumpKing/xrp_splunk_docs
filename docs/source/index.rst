@@ -1,10 +1,7 @@
-Welcome to Lumache's documentation!
+Welcome to xrp_splunk's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**xrp_splunk** is a set of apps/add-ons for Splunk to ingest, search, and monitor the XRP Ledger.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
