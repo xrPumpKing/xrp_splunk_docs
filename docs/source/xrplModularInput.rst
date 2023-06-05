@@ -17,3 +17,23 @@ Install latest build xrplModularInput.sql
 . Download the file
 . Start Splunk UI
 . Apps > install from file > upload the .sql file
+
+
+Add an address to get all the transactions for
+----------------------------------------------
+
+#. Install the add-on
+#. Setting > Data Inputs > xrplModularInputs > +Add new
+#. Provide a name for the input
+#. Provide a client connection string e.g. https://s.altnet.rippletest.net:51234/ 
+#. Provide an address to gather transactions for e.g. rDUFUHmUtsJunvNa2gW2fPmFsV9U8LLeqC
+#. (Optionally) clicl the "more options" and add index, sourcetype, interval etc.
+
+.. image:: images/00001.png
+   :width: 600
+
+.. image:: images/00002.png
+   :width: 600
+
+.. image:: images/00003.png
+   :width: 600
