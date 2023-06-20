@@ -29,12 +29,13 @@ Configurations
 props.conf
 
 .. code-block:: 
-  [AccountTx_transactions]
-  #INDEXED_EXTRACTION = JSON
-  NO_BINARY_CHECK = true
-  SHOULD_LINEMERGE = false
-  pulldown_type = 1
-  TRANSFORMS = xrpl_epoch_time,replace_time
+
+   [AccountTx_transactions]
+   #INDEXED_EXTRACTION = JSON
+   NO_BINARY_CHECK = true
+   SHOULD_LINEMERGE = false
+   pulldown_type = 1
+   TRANSFORMS = xrpl_epoch_time,replace_time
 
 
 This configuration directs each event with this sourcetype to two transforms xrpl_epoch_time and replace_time
@@ -43,13 +44,14 @@ This configuration directs each event with this sourcetype to two transforms xrp
 transforms.conf
 
 .. code-block:: language
-  [xrpl_epoch_time]
-  REGEX = \"date\":\s(?<xrpl_epoch_time>\d+)
-  FORMAT = xrpl_epoch_time::$1
-  WRITE_META = true
-  
-  [replace_time]
-  INGEST_EVAL = _time=xrpl_epoch_time+946684800
+
+   [xrpl_epoch_time]
+   REGEX = \"date\":\s(?<xrpl_epoch_time>\d+)
+   FORMAT = xrpl_epoch_time::$1
+   WRITE_META = true
+   
+   [replace_time]
+   INGEST_EVAL = _time=xrpl_epoch_time+946684800
 
 
 ``xrpl_epoch_time`` - this writes a field xrpl_epoch_time to the event metadata
