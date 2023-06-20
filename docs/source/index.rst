@@ -12,5 +12,6 @@ Contents
 
 .. toctree::
 
+   TA-xrpl_splunk
    xrplModularInput
    
