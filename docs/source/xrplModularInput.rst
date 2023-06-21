@@ -53,7 +53,7 @@ Escrow has 3 transaction types: EscrowCreate, EscrowCancel, EscrowFinish
 Escrow Transactions Errors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Escrow transactions (Create, Cancel, Finish) can produce errors for various well defined reasons, though it is not always simple to identify the cause of the errors from the codes provided. We are able to automatically enrich these error codes with the cause.
+Escrow transactions (Create, Cancel, Finish) can produce errors (https://xrpl.org/tec-codes.html) for various well defined reasons, though it is not always simple to identify the cause of the errors from the codes provided. We are able to automatically enrich these error codes with the cause.
 
 The below flow diagram shows the currently configured error code enrichment for Escrow transactions.
 
