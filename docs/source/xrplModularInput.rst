@@ -37,3 +37,23 @@ Add an address to get all the transactions for
 
 .. image:: images/00003.png
    :width: 600
+
+
+
+
+Transaction Types
+-----------------
+
+Escrow Transactions
+^^^^^^^^^^^^^^^^^^^
+
+Escrow has 3 transaction types: EscrowCreate, EscrowCancel, EscrowFinish
+
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
