@@ -57,3 +57,22 @@ transforms.conf
 ``xrpl_epoch_time`` - this writes a field xrpl_epoch_time to the event metadata
 
 ``replace_time`` - this converts the xrpl_epoch_time to UNIX epoch time and sets the Splunk search time configuration to this value
+
+
+Transaction Types
+-----------------
+
+Escrow Transactions
+^^^^^^^^^^^^^^^^^^^
+
+Escrow has 3 transaction types: EscrowCreate, EscrowCancel, EscrowFinish
+
+
+with schemdraw.Drawing() as d:
+    d += flow.Start().label('START')
+    d += flow.Arrow().down(d.unit/3)
+    d += (h := flow.Decision(w=5.5, h=4, S='YES').label('Hey, wait,\nthis flowchart\nis a trap!'))
+    d += flow.Line().down(d.unit/4)
+    d += flow.Wire('c', k=3.5, arrow='->').to(h.E)
+
+
