@@ -12,7 +12,7 @@ Options:
 
 
 Install latest build xrplModularInput.sql
------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Download the file
 . Start Splunk UI
@@ -20,7 +20,7 @@ Install latest build xrplModularInput.sql
 
 
 Add an address to get all the transactions for
-----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Install the add-on
 #. Setting > Data Inputs > xrplModularInputs > +Add new
