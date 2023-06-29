@@ -14,4 +14,4 @@ Contents
 
    TA-xrpl_splunk
    xrplModularInput
-   
+   xrpNode
